@@ -1,0 +1,40 @@
+//test data 1//
+MarksWeight = 78;
+MTall = 1.69;
+JohnWeight = 92;
+JTall = 1.95;
+let mass = MarksWeight;
+let height = MTall;
+MBMI = mass / height ** 2;
+MBMI1 = mass / (height * height);
+console.log(MBMI, MBMI1);
+mass = JohnWeight;
+height = JTall;
+JBMI = mass / height ** 2;
+JBMI1 = mass / (height * height);
+console.log(JBMI, JBMI1);
+marksHigherBMI = (MBMI >= JBMI);
+marksHigherBMI1 = (MBMI1 >= JBMI1);
+console.log(marksHigherBMI);
+console.log(marksHigherBMI1);
+//test data 2//
+MarksWeight = 95;
+MTall = 1.88;
+JohnWeight = 85;
+JTall = 1.76;
+mass = MarksWeight;
+height = MTall;
+MBMI = mass / height ** 2;
+MBMI1 = mass / (height * height);
+console.log(MBMI, MBMI1);
+mass = JohnWeight;
+height = JTall;
+JBMI = mass / height ** 2;
+JBMI1 = mass / (height * height);
+console.log(JBMI, JBMI1);
+console.log(JBMI, JBMI1);
+marksHigherBMI = (MBMI >= JBMI);
+marksHigherBMI1 = (MBMI1 >= JBMI1);
+console.log(marksHigherBMI);
+console.log(marksHigherBMI1);
+
